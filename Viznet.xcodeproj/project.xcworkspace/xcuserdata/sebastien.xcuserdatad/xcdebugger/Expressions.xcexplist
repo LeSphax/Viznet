@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MTLEngine::initText():mtl_engine.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "textureDesc-&gt;width()">
+            </PersistentString>
+            <PersistentString
+               value = "face-&gt;glyph-&gt;bitmap.rows /2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

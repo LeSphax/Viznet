@@ -1,0 +1,315 @@
+[
+    {
+      "source": "src/api/https/createOAuthURL.ts",
+      "dependencies": [
+        "src/types/oauth.ts",
+        "src/types/options.ts",
+        "src/api/https/utils.ts"
+      ]
+    },
+    {
+      "source": "src/types/oauth.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/options.ts",
+      "dependencies": [
+        "src/subscriptions/SubscriptionManager.ts",
+        "src/types/skill.ts"
+      ]
+    },
+    {
+      "source": "src/subscriptions/SubscriptionManager.ts",
+      "dependencies": [
+        "src/types/subscriptions.ts"
+      ]
+    },
+    {
+      "source": "src/types/subscriptions.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/skill.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/api/https/utils.ts",
+      "dependencies": [
+        "src/types/options.ts",
+        "src/api/https/config.ts"
+      ]
+    },
+    {
+      "source": "src/api/https/config.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/api/https/getOAuthToken.ts",
+      "dependencies": [
+        "src/types/oauth.ts",
+        "src/types/options.ts",
+        "src/api/https/utils.ts"
+      ]
+    },
+    {
+      "source": "src/api/index.ts",
+      "dependencies": [
+        "src/subscriptions/SubscriptionManager.ts",
+        "src/timesync/index.ts",
+        "src/types/actions.ts",
+        "src/types/client.ts",
+        "src/types/credentials.ts",
+        "src/types/deviceInfo.ts",
+        "src/types/experiment.ts",
+        "src/types/metrics.ts",
+        "src/types/oauth.ts",
+        "src/types/options.ts",
+        "src/types/settings.ts",
+        "src/types/skill.ts",
+        "src/types/status.ts",
+        "src/types/subscriptions.ts",
+        "src/types/user.ts",
+        "src/utils/filterInternalKeys.ts",
+        "src/utils/heartbeat.ts",
+        "src/utils/transferDevice.ts",
+        "src/api/firebase/index.ts",
+        "src/api/websocket/index.ts"
+      ]
+    },
+    {
+      "source": "src/timesync/index.ts",
+      "dependencies": [
+        "src/timesync/Timesync.ts"
+      ]
+    },
+    {
+      "source": "src/timesync/Timesync.ts",
+      "dependencies": [
+        "src/types/status.ts",
+        "src/utils/whileOnline.ts"
+      ]
+    },
+    {
+      "source": "src/types/status.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/utils/whileOnline.ts",
+      "dependencies": [
+        "src/types/status.ts"
+      ]
+    },
+    {
+      "source": "src/types/actions.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/client.ts",
+      "dependencies": [
+        "src/types/actions.ts",
+        "src/types/credentials.ts",
+        "src/types/metrics.ts",
+        "src/types/settings.ts",
+        "src/types/skill.ts"
+      ]
+    },
+    {
+      "source": "src/types/credentials.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/metrics.ts",
+      "dependencies": [
+        "src/types/subscriptions.ts"
+      ]
+    },
+    {
+      "source": "src/types/settings.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/deviceInfo.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/experiment.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/user.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/utils/filterInternalKeys.ts",
+      "dependencies": [
+        "src/types/status.ts"
+      ]
+    },
+    {
+      "source": "src/utils/heartbeat.ts",
+      "dependencies": [
+        "src/types/status.ts"
+      ]
+    },
+    {
+      "source": "src/utils/transferDevice.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/api/firebase/index.ts",
+      "dependencies": [
+        "src/api/firebase/FirebaseApp.ts",
+        "src/api/firebase/FirebaseDevice.ts",
+        "src/api/firebase/FirebaseUser.ts"
+      ]
+    },
+    {
+      "source": "src/api/firebase/FirebaseApp.ts",
+      "dependencies": [
+        "src/types/options.ts",
+        "src/api/firebase/config.ts"
+      ]
+    },
+    {
+      "source": "src/api/firebase/config.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/api/firebase/FirebaseDevice.ts",
+      "dependencies": [
+        "src/types/options.ts",
+        "src/api/firebase/deviceStore.ts",
+        "src/api/firebase/FirebaseApp.ts"
+      ]
+    },
+    {
+      "source": "src/api/firebase/deviceStore.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/api/firebase/FirebaseUser.ts",
+      "dependencies": [
+        "src/types/credentials.ts",
+        "src/types/deviceInfo.ts",
+        "src/types/experiment.ts",
+        "src/types/oauth.ts",
+        "src/types/user.ts",
+        "src/utils/transferDevice.ts",
+        "src/api/firebase/FirebaseApp.ts"
+      ]
+    },
+    {
+      "source": "src/api/websocket/index.ts",
+      "dependencies": [
+        "src/types/subscriptions.ts"
+      ]
+    },
+    {
+      "source": "src/types/accelerometer.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/brainwaves.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/calm.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/focus.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/hapticEffects.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/kinesis.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/signalQuality.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/types/training.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/utils/errors.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/utils/hapticEffects.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/utils/is-node.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/utils/metrics.ts",
+      "dependencies": [
+        "src/types/deviceInfo.ts",
+        "src/types/subscriptions.ts",
+        "src/utils/subscription.ts",
+        "src/utils/whileOnline.ts"
+      ]
+    },
+    {
+      "source": "src/utils/subscription.ts",
+      "dependencies": [
+        "src/types/options.ts",
+        "src/utils/errors.ts"
+      ]
+    },
+    {
+      "source": "src/utils/oauth.ts",
+      "dependencies": [
+        "src/types/actions.ts",
+        "src/utils/errors.ts"
+      ]
+    },
+    {
+      "source": "src/utils/platform.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/index.ts",
+      "dependencies": [
+        "src/Notion.ts",
+        "src/skills/index.ts"
+      ]
+    },
+    {
+      "source": "src/skills/index.ts",
+      "dependencies": [
+        "src/skills/createSkill.ts",
+        "src/skills/NotionOnDevice.ts"
+      ]
+    },
+    {
+      "source": "src/skills/createSkill.ts",
+      "dependencies": [
+        "src/types/skill.ts",
+        "src/skills/NotionOnDevice.ts"
+      ]
+    },
+    {
+      "source": "src/skills/NotionOnDevice.ts",
+      "dependencies": [
+        "src/Notion.ts",
+        "src/types/options.ts",
+        "src/types/skill.ts"
+      ]
+    },
+    {
+      "source": "src/types/awareness.ts",
+      "dependencies": []
+    },
+    {
+      "source": "src/utils/pick.ts",
+      "dependencies": []
+    }
+]
